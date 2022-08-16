@@ -8,10 +8,10 @@ const db = {
             reqPhone: 85997658732,
             address:"Rua Antônio Jose",
             place: "igreja da barra",
-            type: "Play at the church",
-            date: "24/08/2022",
+            type: "Tocar na igreja",
+            date: "2022-08-24",
             startTime: 19,
-            endTime: 21
+            endTime: 21,
         },
         {
             id: id(),
@@ -19,10 +19,10 @@ const db = {
             reqPhone: 85997354782,
             address:"Rua dos Passaros",
             place: "barraca do sr Jose",
-            type: "Play at the party",
-            date: "5/09/2022",
+            type: "Tocar na festa",
+            date: "2022-09-05",
             startTime: 18,
-            endTime: 20
+            endTime: 20,
         }
     ],
     user:{
