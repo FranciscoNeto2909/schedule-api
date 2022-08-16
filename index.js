@@ -20,7 +20,7 @@ app.post("/newschedule", (req, res)=>{
         console.error()
     }
 })
-app.delete("delschedule",(req, res)=>{
+app.delete("/delschedule/:id",(req, res)=>{
     const scheduleId = req.params.id
     db.schedules = db.schedules.filter(scdl => scdl.id.toString() !== scheduleId.toString())
 })
